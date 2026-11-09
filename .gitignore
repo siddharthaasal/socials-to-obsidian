@@ -1,0 +1,13 @@
+# Allowlist: only code is tracked. Everything personal (cookies, Instagram export,
+# downloaded media, transcripts, notes, the manifest DB) stays local.
+/*
+!/.gitignore
+!/README.md
+!/pipeline.py
+!/transcribe.py
+!/.claude/
+/.claude/*
+!/.claude/skills/
+
+.DS_Store
+__pycache__/
